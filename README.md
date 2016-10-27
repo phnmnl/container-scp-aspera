@@ -32,6 +32,7 @@ MetaboLights semantic quality will be based on various controlled vocabularies l
 
 ## Tool Authors
 
+- Kenneth Haug (EMBL-EBI)
 - Venkata Chandrasekhar Nainala (EMBL-EBI)
 
 ## Container Contributors
