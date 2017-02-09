@@ -2,7 +2,9 @@ FROM ubuntu:16.04
 
 MAINTAINER PhenoMeNal-H2020 Project ( phenomenal-h2020-users@googlegroups.com )
 
-
+LABEL software.version=3.5.4.102989-linux-64
+LABEL version=0.1
+LABEL software="ascp-client"
 
 RUN apt-get update -y && apt-get install -y --no-install-recommends wget zip && \
     wget http://download.asperasoft.com/download/sw/ascp-client/3.5.4/ascp-install-3.5.4.102989-linux-64.sh && \
