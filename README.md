@@ -53,15 +53,17 @@ MetaboLights semantic quality will be based on various controlled vocabularies l
 For local individual installation:
 
 ```bash
-docker pull docker-registry.phenomenal-h2020.eu/phnmnl/scp-aspera
+docker pull container-registry.phenomenal-h2020.eu/phnmnl/scp-aspera
 ```
 
 ## Usage Instructions
 
+Available on PhenoMeNal Galaxy instances under PhenoMeNal H2020 Tools -> Transfer.
+
 For direct docker usage:
 
 ```bash
-docker run docker-registry.phenomenal-h2020.eu/phnmnl/scp-aspera ...
+docker run -v $PWD:/data -e "ASPERA_SCP_PASS=Xz68YfDe" container-registry.phenomenal-h2020.eu/phnmnl/scp-aspera -QT -l 1g fasp-ml@fasp.ebi.ac.uk:/studies/public/MTBLS174 /data
 ```
 
 ## Publications
