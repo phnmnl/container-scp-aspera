@@ -12,5 +12,8 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends wget zip && 
     rm -r ascp-install-3.5.4.102989-linux-64.sh && apt-get purge -y wget && \
     apt-get autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+COPY runTest1.sh /usr/local/bin/runTest1.sh
+RUN chmod a+x /usr/local/bin/runTest1.sh
+
 ENTRYPOINT ["ascp"]
     
