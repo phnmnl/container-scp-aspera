@@ -1,11 +1,11 @@
 ![Logo](logo.png)
 
-# MetaboLights Labs Downloader
+# MetaboLights Downloader
 Version: 1.0.0
 
 ## Short Description
 
-Facilities for downloading studies from MetaboLights Labs
+Facilities for downloading studies from MetaboLights.
 
 ## Description
 
@@ -49,6 +49,8 @@ MetaboLights semantic quality will be based on various controlled vocabularies l
 - https://github.com/phnmnl/container-scp-aspera
 
 ## Installation 
+
+MTBLS Downloader is present on all PhenoMeNal Galaxy instances on deployed Cloud Research Environments, under the Transfer category in the tool bar to the left of the screen. No installation is needed hence on PhenoMeNal Cloud Research Environments.
 
 For local individual installation:
 
