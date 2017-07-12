@@ -8,7 +8,7 @@ ascp -QT -l 1g fasp-ml@fasp.ebi.ac.uk:$file_path .
 
 # check that result file exists.
 for f in i_Investigation.txt metabolites.txt 's_Oxylipin analyses of chronic hepatitis B.txt' s_mtbls253.txt; do
-	if [ -z "$STUDY_ID/$f" ]; then
+	if [ ! -f "$STUDY_ID/$f" ]; then
    		echo "Files $f do not exist, failing test."
    		exit 1
 	else
