@@ -4,7 +4,7 @@ export ASPERA_SCP_PASS="Xz68YfDe"
 
 STUDY_ID=MTBLS253
 file_path=/studies/public/$STUDY_ID
-ascp -QT -l 1g fasp-ml@fasp.ebi.ac.uk:$file_path . 
+ascp -QT -l 1g -P 33001 fasp-ml@fasp.ebi.ac.uk:$file_path . 
 
 # check that result file exists.
 for f in i_Investigation.txt metabolites.txt 's_Oxylipin analyses of chronic hepatitis B.txt' s_mtbls253.txt; do
