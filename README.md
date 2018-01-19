@@ -24,11 +24,18 @@ MetaboLights semantic quality will be based on various controlled vocabularies l
 
 ## Functionality
 
-- Other Tools
+- Data Management / Study Dataset Download
 
 ## Approaches
+
+- Metabolomics
+- Lipidomics
+- Isotopic Labelling Analysis
   
 ## Instrument Data Types
+
+- MS
+- NMR
 
 ## Tool Authors
 
@@ -38,6 +45,7 @@ MetaboLights semantic quality will be based on various controlled vocabularies l
 ## Container Contributors
 
 - [Pablo Moreno](https://github.com/pcm32) (EMBL-EBI)
+- [Philippe Rocca-Serra](https://github.com/proccaserra) (University of Oxford)
 
 ## Website
 
