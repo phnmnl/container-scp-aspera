@@ -9,6 +9,10 @@ Facilities for downloading studies from MetaboLights.
 
 ## Description
 
+This MetaboLights Downloader is deprecated and will be removed in future versions of PhenoMeNal, please use the W4M-based [MetaboLights-Downloader](https://portal.phenomenal-h2020.eu/app-library/mtbls-dwnld) instead.
+
+This tool allows users to download public and private studies from MetaboLights.
+
 MetaboLights is a database for Metabolomics experiments and derived information.
 The database is cross-species, cross-technique and covers metabolite structures and their reference spectra as well as their biological roles, locations and concentrations, and experimental data from metabolic experiments.We will provide search services around spectral similarities and chemical structures.
 
@@ -58,6 +62,8 @@ MetaboLights semantic quality will be based on various controlled vocabularies l
 
 ## Installation 
 
+This MetaboLights Downloader is deprecated and will be removed in future versions of PhenoMeNal, please use the W4M-based [MetaboLights-Downloader](https://portal.phenomenal-h2020.eu/app-library/mtbls-dwnld) instead.
+
 MTBLS Downloader is present on all PhenoMeNal Galaxy instances on deployed Cloud Research Environments, under the Transfer category in the tool bar to the left of the screen. No installation is needed hence on PhenoMeNal Cloud Research Environments.
 
 For local individual installation:
@@ -67,6 +73,8 @@ docker pull container-registry.phenomenal-h2020.eu/phnmnl/scp-aspera
 ```
 
 ## Usage Instructions
+
+This MetaboLights Downloader is deprecated and will be removed in future versions of PhenoMeNal, please use the W4M-based [MetaboLights-Downloader](https://portal.phenomenal-h2020.eu/app-library/mtbls-dwnld) instead.
 
 Available on PhenoMeNal Galaxy instances under PhenoMeNal H2020 Tools -> Transfer.
 
