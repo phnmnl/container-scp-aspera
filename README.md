@@ -1,7 +1,7 @@
 ![Logo](logo.png)
 
 # MetaboLights Downloader
-Version: 1.0.0
+Version: 3.7.2
 
 ## Short Description
 
