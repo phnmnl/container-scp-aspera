@@ -1,7 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER PhenoMeNal-H2020 Project ( phenomenal-h2020-users@googlegroups.com )
-
+LABEL maintainer="PhenoMeNal-H2020 Project (phenomenal-h2020-users@googlegroups.com)"
 LABEL software.version=3.7.2
 LABEL version=0.3
 LABEL software="MetaboLights Downloader"
