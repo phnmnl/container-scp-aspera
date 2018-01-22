@@ -64,7 +64,7 @@ MetaboLights semantic quality will be based on various controlled vocabularies l
 
 This MetaboLights Downloader is deprecated and will be removed in future versions of PhenoMeNal, please use the W4M-based [MetaboLights-Downloader](https://portal.phenomenal-h2020.eu/app-library/mtbls-dwnld) instead.
 
-MTBLS Downloader is present on all PhenoMeNal Galaxy instances on deployed Cloud Research Environments, under the Transfer category in the tool bar to the left of the screen. No installation is needed hence on PhenoMeNal Cloud Research Environments.
+MTBLS Downloader is present on all PhenoMeNal Galaxy instances on deployed Cloud Research Environments, under the Data Transfer category in the tool bar to the left of the screen. No installation is needed hence on PhenoMeNal Cloud Research Environments.
 
 For local individual installation:
 
@@ -76,7 +76,7 @@ docker pull container-registry.phenomenal-h2020.eu/phnmnl/scp-aspera
 
 This MetaboLights Downloader is deprecated and will be removed in future versions of PhenoMeNal, please use the W4M-based [MetaboLights-Downloader](https://portal.phenomenal-h2020.eu/app-library/mtbls-dwnld) instead.
 
-Available on PhenoMeNal Galaxy instances under PhenoMeNal H2020 Tools -> Transfer.
+Available on PhenoMeNal Galaxy instances under PhenoMeNal H2020 Tools -> Data Transfer.
 
 For direct docker usage:
 
